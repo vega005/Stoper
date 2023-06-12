@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8"/>
+        <meta title="author" content=" Daniel Chrzanowski "/>
+        <meta title="description"/>
+        <meta><title>Stoper</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js"></script>
+    </head>
+    <body onload="reset()">
+        <header>
+            <h1>Stoper</h1>
+        </header>
+        <section id="content">
+            <div id="screen">
+            </div>
+            <div id="controls">
+                <button onclick="stopwatch()" id="start">Start</button>
+                <button disabled onclick="stop()" id="stop">Stop</button>
+                <button disabled onclick="reset()" id="reset">Reset</button>
+            </div>
+        </section>
+    </body>
+</html>
